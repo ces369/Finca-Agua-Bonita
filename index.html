@@ -1,110 +1,184 @@
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finca Cafetalera</title>
+    <style>
+        /* Estilos generales */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
 
-h1, h2 {
-  color: #333;
-}
+        h1, h2 {
+          color: #333;
+        }
 
-a {
-  text-decoration: none;
-  color: #333;
-}
+        a {
+          text-decoration: none;
+          color: #333;
+        }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
 
-/* Encabezado */
-header {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
+        /* Encabezado */
+        header {
+          background-color: #f9f9f9;
+          padding: 20px;
+        }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-}
+        nav ul {
+          display: flex;
+          justify-content: center;
+        }
 
-nav ul li {
-  margin: 0 10px;
-}
+        nav ul li {
+          margin: 0 10px;
+        }
 
-/* Secciones */
-section {
-  padding: 40px;
-}
+        /* Secciones */
+        section {
+          padding: 40px;
+        }
 
-#inicio {
-  background-color: #e6f5f5;
-}
+        #inicio {
+          background-color: #e6f5f5;
+        }
 
-#nosotros {
-  background-color: #f5f5f5;
-}
+        #nosotros {
+          background-color: #f5f5f5;
+        }
 
-#productos {
-  background-color: #e6f5f5;
-}
+        #productos {
+          background-color: #e6f5f5;
+        }
 
-#inversion {
-  background-color: #f5f5f5;
-}
+        #inversion {
+          background-color: #f5f5f5;
+        }
 
-#contacto {
-  background-color: #e6f5f5;
-}
+        #contacto {
+          background-color: #e6f5f5;
+        }
 
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+        .cta-button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border-radius: 4px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
 
-/* Formulario de contacto */
-form {
-  margin-top: 20px;
-}
+        /* Formulario de contacto */
+        form {
+          margin-top: 20px;
+        }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
+        label {
+          display: block;
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  margin-bottom: 15px;
-}
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          margin-bottom: 15px;
+        }
 
-input[type="submit"] {
-  display: block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+        input[type="submit"] {
+          display: block;
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
 
-/* Pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
+        /* Pie de página */
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+    <style>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#inversion">Inversión</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h1>Finca Cafetalera</h1>
+    <p>Bienvenido a nuestra finca cafetalera, donde protegemos nuestras zonas boscosas y ofrecemos los mejores productos de café.</p>
+    <a href="#inversion" class="cta-button">Invierte en la protección de la naturaleza</a>
+  </section>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <p>Somos una finca dedicada al cultivo de café de alta calidad y comprometida con la conservación de los bosques que nos rodean. Nuestro objetivo es preservar la biodiversidad mientras producimos café sostenible y delicioso.</p>
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <p>Descubre nuestra selección de productos de café de origen único:</p>
+    <ul>
+      <li>Café Arabica</li>
+      <li>Café Robusta</li>
+      <li>Café Especial</li>
+      <li>Café Descafeinado</li>
+    </ul>
+  </section>
+
+  <section id="inversion">
+    <h2>Inversión</h2>
+    <p>Te invitamos a ser parte de nuestra iniciativa de conservación y producción de café sostenible. Si estás interesado en invertir, contáctanos para más detalles.</p>
+    <a href="#contacto" class="cta-button">Contacta con nosotros</a>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para más información o consultas, por favor, completa el siguiente formulario:</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>Derechos reservados &copy; 2023 Finca Cafetalera</p>
+  </footer>
+
+</body>
+</html>
