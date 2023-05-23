@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Color de texto blanco */
+  background-color: #795548; /* Color de fondo marrón */
+}
+
+h1, h2 {
+  color: #fff; /* Color de texto blanco */
+}
+
+a {
+  text-decoration: none;
+  color: #fff; /* Color de texto blanco */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #8d6e63; /* Color de fondo marrón claro */
+  padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Secciones */
+section {
+  padding: 40px;
+}
+
+#cafe-lavado {
+  background-color: #8BC34A; /* Color de fondo verde */
+}
+
+#cafe-especial {
+  background-color: #8BC34A; /* Color de fondo verde */
+}
+
+#cafe-varietal {
+  background-color: #8BC34A; /* Color de fondo verde */
+}
+
+/* Enlaces de compra */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff; /* Color de fondo blanco */
+  color: #795548; /* Color de texto marrón */
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+  background-color: #795548; /* Color de fondo marrón */
+  padding: 20px;
+  text-align: center;
+}
